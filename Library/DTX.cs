@@ -582,6 +582,7 @@ namespace DtxCS
             ret.AddNode(DataSymbol.Symbol(s.ReadLengthUTF8()));
             break;
           case DataType.ARRAY:
+          case DataType.COLOR:
           case DataType.COMMAND:
           case DataType.MACRO:
             if (version == 2)

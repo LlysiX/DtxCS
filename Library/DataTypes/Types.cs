@@ -54,6 +54,10 @@
     /// </summary>
     MACRO = 0x13,
     /// <summary>
+    /// Color (array with 3 floats as RGB, or 4 as RGBA)
+    /// </summary>
+    COLOR = 0x15,
+    /// <summary>
     /// #define directive
     /// </summary>
     DEFINE = 0x20,
