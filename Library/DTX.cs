@@ -504,6 +504,7 @@ namespace DtxCS
             dtb.WriteLengthUTF8(((DataSymbol)dta.Children[i]).Name);
             break;
           case DataType.ARRAY:
+          case DataType.COLOR:
           case DataType.COMMAND:
           case DataType.MACRO:
             if (version == 2)
